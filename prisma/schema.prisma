@@ -1,0 +1,81 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model League {
+  id           Int       @id @default(autoincrement())
+  osmLeagueId  Int       @unique
+  name         String
+  weekNr       Int       @default(0)
+  weeks        Int       @default(0)
+  seasonNr     Int       @default(1)
+  teamCount    Int       @default(0)
+  lastSyncedAt DateTime?
+  lastSyncError String?
+  /// "full" (with OSM credentials) or "public" (league/teams/managers only)
+  lastSyncMode  String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  teams   Team[]
+  matches Match[]
+}
+
+model Team {
+  id            Int     @id @default(autoincrement())
+  osmTeamId     Int
+  leagueId      Int
+  name          String
+  logoUrl       String?
+  crewId        Int?
+  crewName      String?
+  managerName   String?
+  managerUserId Int?
+  managerCountry String?
+  ranking       Int?
+  budget        Int?
+
+  league   League    @relation(fields: [leagueId], references: [id], onDelete: Cascade)
+  standing Standing?
+
+  @@unique([leagueId, osmTeamId])
+}
+
+model Standing {
+  id           Int @id @default(autoincrement())
+  teamId       Int @unique
+  points       Int @default(0)
+  won          Int @default(0)
+  drew         Int @default(0)
+  lost         Int @default(0)
+  goalsFor     Int @default(0)
+  goalsAgainst Int @default(0)
+  yellowCards  Int @default(0)
+  redCards     Int @default(0)
+
+  team Team @relation(fields: [teamId], references: [id], onDelete: Cascade)
+}
+
+model Match {
+  id         Int     @id @default(autoincrement())
+  leagueId   Int
+  weekNr     Int
+  matchId    Int
+  /// osmTeamId of the home team inside the league
+  homeTeamId Int
+  /// osmTeamId of the away team inside the league
+  awayTeamId Int
+  homeGoals  Int     @default(0)
+  awayGoals  Int     @default(0)
+  isPlayed   Boolean @default(false)
+
+  league League @relation(fields: [leagueId], references: [id], onDelete: Cascade)
+
+  @@unique([leagueId, weekNr, matchId])
+  @@index([leagueId, weekNr])
+}

@@ -1,0 +1,67 @@
+{
+  "league": {
+    "id": 154274365,
+    "name": "تیم vs ATA",
+    "leagueTypeId": 21,
+    "weekNr": 0,
+    "weeks": 10,
+    "seasonNr": 1,
+    "teamCount": 10,
+    "managers": 10,
+    "moderator": "osm",
+    "leaguePhase": 1
+  },
+  "managers": {
+    "952786718": "Andrey Seleznev",
+    "938149820": "Andrey Seleznev",
+    "972549133": "arsham22_9",
+    "972592897": "حسین_3328",
+    "971993136": "Sheker02",
+    "972340786": "hossein67_5",
+    "972341035": "reza70_3",
+    "799971580": "daniar_1_6",
+    "972340946": "milad76_5",
+    "594813609": "VINCENZO CASSANO_97"
+  },
+  "crews": {
+    "321455": "ATA",
+    "328312": "تیم"
+  },
+  "teams": [
+    {"id": 1, "name": "Rapid Bucuresti", "city": "Bucharest", "baseId": "0e3c2a62-a3fe-11ea-ae92-a0369f7ecc2c", "crewId": 321455, "userId": 952786718, "ranking": 6, "budget": 1000000, "logo": "https://assets.onlinesoccermanager.com/Team/Small/0e3c2a62-a3fe-11ea-ae92-a0369f7ecc2c.png?v=1659453355"},
+    {"id": 2, "name": "Botosani", "city": "Botosani", "baseId": "0e3c0307-a3fe-11ea-ae92-a0369f7ecc2c", "crewId": 321455, "userId": 938149820, "ranking": 1, "budget": 640000, "logo": "https://assets.onlinesoccermanager.com/Team/Small/0e3c0307-a3fe-11ea-ae92-a0369f7ecc2c.png?v=1659453092"},
+    {"id": 3, "name": "Universitatea Cluj", "city": "Cluj-Napoca", "baseId": "0e3c2cb5-a3fe-11ea-ae92-a0369f7ecc2c", "crewId": 328312, "userId": 972549133, "ranking": 8, "budget": 865000, "logo": "https://assets.onlinesoccermanager.com/Team/Small/0e3c2cb5-a3fe-11ea-ae92-a0369f7ecc2c.png?v=1659453382"},
+    {"id": 4, "name": "Miercurea Ciuc", "city": "Miercurea Ciuc", "baseId": "0e3c2a02-a3fe-11ea-ae92-a0369f7ecc2c", "crewId": 328312, "userId": 972592897, "ranking": 4, "budget": 505000, "logo": "https://assets.onlinesoccermanager.com/Team/Small/0e3c2a02-a3fe-11ea-ae92-a0369f7ecc2c.png?v=1752559513"},
+    {"id": 5, "name": "CFR Cluj", "city": "Cluj-Napoca", "baseId": "0e3c04a9-a3fe-11ea-ae92-a0369f7ecc2c", "crewId": 321455, "userId": 971993136, "ranking": 2, "budget": 865000, "logo": "https://assets.onlinesoccermanager.com/Team/Small/0e3c04a9-a3fe-11ea-ae92-a0369f7ecc2c.png?v=1659453095"},
+    {"id": 6, "name": "Dinamo Bucuresti", "city": "Bucharest", "baseId": "0e3c08cd-a3fe-11ea-ae92-a0369f7ecc2c", "crewId": 328312, "userId": 972340786, "ranking": 3, "budget": 865000, "logo": "https://assets.onlinesoccermanager.com/Team/Small/0e3c08cd-a3fe-11ea-ae92-a0369f7ecc2c.png?v=1689687350"},
+    {"id": 7, "name": "Universitatea Craiova", "city": "Craiova", "baseId": "0e3c085f-a3fe-11ea-ae92-a0369f7ecc2c", "crewId": 328312, "userId": 972341035, "ranking": 9, "budget": 1000000, "logo": "https://assets.onlinesoccermanager.com/Team/Small/0e3c085f-a3fe-11ea-ae92-a0369f7ecc2c.png?v=1659453216"},
+    {"id": 8, "name": "Petrolul Ploiesti", "city": "Ploiesti", "baseId": "0e3c2e42-a3fe-11ea-ae92-a0369f7ecc2c", "crewId": 321455, "userId": 799971580, "ranking": 5, "budget": 505000, "logo": "https://assets.onlinesoccermanager.com/Team/Small/0e3c2e42-a3fe-11ea-ae92-a0369f7ecc2c.png?v=1659453339"},
+    {"id": 9, "name": "Voluntari", "city": "Voluntari", "baseId": "0e3c03ce-a3fe-11ea-ae92-a0369f7ecc2c", "crewId": 328312, "userId": 972340946, "ranking": 10, "budget": 505000, "logo": "https://assets.onlinesoccermanager.com/Team/Small/0e3c03ce-a3fe-11ea-ae92-a0369f7ecc2c.png?v=1786364781"},
+    {"id": 10, "name": "SC Otelul Galati", "city": "Galati", "baseId": "d23752b6-aed5-4c71-b3f7-2124287877f7", "crewId": 321455, "userId": 594813609, "ranking": 7, "budget": 595000, "logo": "https://assets.onlinesoccermanager.com/Team/Small/d23752b6-aed5-4c71-b3f7-2124287877f7.png?v=1689687327"}
+  ],
+  "standings": [
+    {"teamId": 1, "points": 0, "won": 0, "drew": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "yellowCards": 0, "redCards": 0},
+    {"teamId": 2, "points": 0, "won": 0, "drew": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "yellowCards": 0, "redCards": 0},
+    {"teamId": 3, "points": 0, "won": 0, "drew": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "yellowCards": 0, "redCards": 0},
+    {"teamId": 4, "points": 0, "won": 0, "drew": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "yellowCards": 0, "redCards": 0},
+    {"teamId": 5, "points": 0, "won": 0, "drew": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "yellowCards": 0, "redCards": 0},
+    {"teamId": 6, "points": 0, "won": 0, "drew": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "yellowCards": 0, "redCards": 0},
+    {"teamId": 7, "points": 0, "won": 0, "drew": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "yellowCards": 0, "redCards": 0},
+    {"teamId": 8, "points": 0, "won": 0, "drew": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "yellowCards": 0, "redCards": 0},
+    {"teamId": 9, "points": 0, "won": 0, "drew": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "yellowCards": 0, "redCards": 0},
+    {"teamId": 10, "points": 0, "won": 0, "drew": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "yellowCards": 0, "redCards": 0}
+  ],
+  "matches_note": "Это только матчи команды 5 (CFR Cluj) — кэш веб-клиента хранит матчи своей команды. Полный календарь — через /matches/filter.",
+  "matches": [
+    {"weekNr": 1, "matchId": 2, "homeTeamId": 7, "awayTeamId": 5, "homeGoals": 0, "awayGoals": 0, "winnerTeamId": 0, "isPlayed": false},
+    {"weekNr": 2, "matchId": 4, "homeTeamId": 5, "awayTeamId": 6, "homeGoals": 0, "awayGoals": 0, "winnerTeamId": 0, "isPlayed": false},
+    {"weekNr": 3, "matchId": 5, "homeTeamId": 5, "awayTeamId": 9, "homeGoals": 0, "awayGoals": 0, "winnerTeamId": 0, "isPlayed": false},
+    {"weekNr": 4, "matchId": 3, "homeTeamId": 4, "awayTeamId": 5, "homeGoals": 0, "awayGoals": 0, "winnerTeamId": 0, "isPlayed": false},
+    {"weekNr": 5, "matchId": 1, "homeTeamId": 5, "awayTeamId": 3, "homeGoals": 0, "awayGoals": 0, "winnerTeamId": 0, "isPlayed": false},
+    {"weekNr": 6, "matchId": 2, "homeTeamId": 5, "awayTeamId": 7, "homeGoals": 0, "awayGoals": 0, "winnerTeamId": 0, "isPlayed": false},
+    {"weekNr": 7, "matchId": 4, "homeTeamId": 6, "awayTeamId": 5, "homeGoals": 0, "awayGoals": 0, "winnerTeamId": 0, "isPlayed": false},
+    {"weekNr": 8, "matchId": 5, "homeTeamId": 9, "awayTeamId": 5, "homeGoals": 0, "awayGoals": 0, "winnerTeamId": 0, "isPlayed": false},
+    {"weekNr": 9, "matchId": 3, "homeTeamId": 5, "awayTeamId": 4, "homeGoals": 0, "awayGoals": 0, "winnerTeamId": 0, "isPlayed": false},
+    {"weekNr": 10, "matchId": 1, "homeTeamId": 3, "awayTeamId": 5, "homeGoals": 0, "awayGoals": 0, "winnerTeamId": 0, "isPlayed": false}
+  ]
+}
